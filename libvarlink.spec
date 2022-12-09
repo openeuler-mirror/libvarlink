@@ -2,9 +2,9 @@
 
 Name:           libvarlink
 Version:        23
-Release:        1
+Release:        2
 Summary:        Varlink C Library
-License:        ASL 2.0 and BSD-3-Clause
+License:        Apache-2.0 and BSD-3-Clause
 URL:            https://github.com/varlink/libvarlink
 Source0:        https://github.com/varlink/%{name}/archive/%{version}/%{name}-%{version}.tar.gz
 BuildRequires:  meson
@@ -59,6 +59,9 @@ export LC_CTYPE=C.utf8
 %{_libdir}/pkgconfig/libvarlink.pc
 
 %changelog
+* Fri Dec 09 2022 liukuo <liukuo@kylinos.cn> - 23-2
+- License compliance rectification
+
 * Wed Jun 08 2022 fushanqing <fushanqing@kylinos.cn> - 23-1
 - update to 23
 
