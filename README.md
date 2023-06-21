@@ -3,28 +3,25 @@
 #### 介绍
 Varlink C library and command line tool.
 
-#### 软件架构
-软件架构说明
-
-
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Install libvarlink rpm package:
+
+yum install libvarlink
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+libvarlink 是云底座操作系统NestOS的必需组件
 
 #### 参与贡献
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+master分支使用最新的上游版本，如果检测到上游有最新版本发布，先形成issue后再提交对应PR更新，流程如下。
+1.  提交issue
+2.  Fork 本仓库
+3.  新建 Feat_xxx 分支
+4.  提交代码
+5.  新建 Pull Request
+
 
 
 #### 特技
